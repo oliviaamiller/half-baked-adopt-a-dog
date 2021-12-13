@@ -1,5 +1,5 @@
-import { getDogs } from '../fetch-utils.js';
-import { renderDogCard } from '../render-utils.js';
+import { getDogs } from './fetch-utils.js';
+import { renderDogCard } from './render-utils.js';
 
 const dogListContainer = document.getElementById('dog-list-container');
 
