@@ -16,6 +16,4 @@ window.addEventListener('load', async() => {
 
         dogListContainer.append(dogEl);
     }
-
-
 });
