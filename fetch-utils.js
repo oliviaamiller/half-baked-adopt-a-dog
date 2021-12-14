@@ -26,5 +26,5 @@ export async function getDog(id) {
 }
 
 function checkError({ data, error }) {
-    return error ? console.log(error) : data;
+    return error ? console.error(error) : data;
 }
